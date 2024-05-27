@@ -36,11 +36,11 @@
                 <li>Run the SQL script provided in the <code>resource</code> folder to create the necessary tables.</li>
             </ul>
         </li>
-        <li>Update the database configuration in the <code>db.properties</code> file:</li>
+        <li>Update the database configuration in the <code>context.xml</code> file(located at in the META-INF folder):</li>
         <pre><code>
-db.url=jdbc:mysql://localhost:3306/banking
-db.username=your_db_username
-db.password=your_db_password
+            username="<username>"
+            password="<Password>"
+            url="jdbc:mysql://localhost:3306/online_banking"/>
         </code></pre>
         <li>Deploy the application to a servlet container (e.g., Apache Tomcat).</li>
         <li>Access the application at <code>http://localhost:8080/</code>.</li>
