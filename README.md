@@ -15,6 +15,7 @@
         <li>Withdraw Money</li>
         <li>Deposit Money</li>
         <li>Account Deletion</li>
+        <li>Check Balance</li>
     </ul>
     <h2>Technologies Used</h2>
     <ul>
@@ -31,8 +32,8 @@
         <li>Import the project into your IDE (e.g., Eclipse or IntelliJ IDEA).</li>
         <li>Set up the database:
             <ul>
-                <li>Create a database named <code>banking</code>.</li>
-                <li>Run the SQL script provided in the <code>database</code> folder to create the necessary tables.</li>
+                <li>Create a database named <code>online_banking</code>.</li>
+                <li>Run the SQL script provided in the <code>resource</code> folder to create the necessary tables.</li>
             </ul>
         </li>
         <li>Update the database configuration in the <code>db.properties</code> file:</li>
@@ -42,7 +43,7 @@ db.username=your_db_username
 db.password=your_db_password
         </code></pre>
         <li>Deploy the application to a servlet container (e.g., Apache Tomcat).</li>
-        <li>Access the application at <code>http://localhost:8080/online-banking</code>.</li>
+        <li>Access the application at <code>http://localhost:8080/</code>.</li>
     </ol>
 
    <h2>How to Use</h2>
